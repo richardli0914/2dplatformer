@@ -1,4 +1,16 @@
-body { padding: 0; margin: 0 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.top{
+    background-color: #383838;
+    padding: 5%;
+    border-bottom: 1px solid #3f3f3f;
+}
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { position: fixed; width: 100%; height: 100% }
